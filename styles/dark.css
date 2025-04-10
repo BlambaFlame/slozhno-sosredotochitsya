@@ -9,4 +9,40 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+
+    --backgroud-image: url(../images/cover-image-dark.png);
+    --background-color: var(--color-dark-blue, #000028);
+
+    --title-color: var(--color-pink-ff, #db00ff);
+    --header-text-color: var(--color-dark-blue, #000028);
+    --decorated-color: var(--color-pink-70, #ff0070);
+    --decorated-color-40: var(--color-pink-40, #ff007040);
+    --section-title-color: var(--color-pink-70, #ff0070);
+    --article-title-color: var(--color-dark-blue, #000028);
+    --accent-color: var(--color-pink-70, #ff0070);
+    --text-color: var(--color-pink-ce, #f1b2ce);
+}
+
+.page.theme_dark .recording {
+  display: block;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--backgroud-image: url(../images/cover-image-dark.png);
+    --background-color: var(--color-dark-blue, #000028);
+
+		--title-color: var(--color-pink-ff, #db00ff);
+		--header-text-color: var(--color-dark-blue, #000028);
+		--decorated-color: var(--color-pink-70, #ff0070);
+		--decorated-color-40: var(--color-pink-40, #ff007040);
+		--section-title-color: var(--color-pink-70, #ff0070);
+		--article-title-color: var(--color-dark-blue, #000028);
+		--accent-color: var(--color-pink-70, #ff0070);
+		--text-color: var(--color-pink-ce, #f1b2ce);
+	}
+
+	.recording {
+		display: block;
+	}
 }
