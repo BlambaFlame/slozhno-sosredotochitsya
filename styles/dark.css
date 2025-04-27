@@ -10,9 +10,9 @@
     чем стили в медиазапросе предпочтений пользователя
   */
 
-    --backgroud-image: url(../images/cover-image-dark.png);
+    
     --background-color: var(--color-dark-blue, #000028);
-
+    --background-image: url(../images/cover-image-dark.png);
     --title-color: var(--color-pink-ff, #db00ff);
     --header-text-color: var(--color-dark-blue, #000028);
     --decorated-color: var(--color-pink-70, #ff0070);
@@ -29,9 +29,9 @@
 
 @media (prefers-color-scheme: dark) {
 	:root {
-		--backgroud-image: url(../images/cover-image-dark.png);
+	
     --background-color: var(--color-dark-blue, #000028);
-
+    --background-image: url(../images/cover-image-dark.png);
 		--title-color: var(--color-pink-ff, #db00ff);
 		--header-text-color: var(--color-dark-blue, #000028);
 		--decorated-color: var(--color-pink-70, #ff0070);
